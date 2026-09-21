@@ -1,4 +1,4 @@
-# 🧬 Evolutionary Autonomous Trading System
+#  Evolutionary Autonomous Trading System
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
 ![Architecture](https://img.shields.io/badge/Architecture-OOP-blueviolet)
@@ -10,35 +10,7 @@ An autonomous trading system inspired by **evolutionary algorithms**. Trading bo
 
 ---
 
-## 🏗️ System Architecture
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                     EVOLUTIONARY ENGINE                         │
-│                                                                 │
-│   ┌──────────┐     ┌────────────┐     ┌──────────────────┐     │
-│   │  Market   │────▶│  Trading   │────▶│    Portfolio      │     │
-│   │ DataFeed  │     │    Bot     │     │    Manager        │     │
-│   └──────────┘     └─────┬──────┘     └──────────────────┘     │
-│                          │                                      │
-│              ┌───────────┼───────────┐                          │
-│              ▼                       ▼                          │
-│     ┌────────────────┐     ┌─────────────────┐                  │
-│     │  💀 KILL SWITCH │     │ 🔒 SECURE CAPITAL│                  │
-│     │  (Drawdown)     │     │ (Profit Target)  │                  │
-│     └───────┬────────┘     └────────┬────────┘                  │
-│             │                       │                           │
-│             ▼                       ▼                           │
-│     ┌──────────────┐       ┌──────────────┐                    │
-│     │   MUTATE &    │       │  SAFE VAULT   │                    │
-│     │   RESPAWN     │       │  (Locked $$$)  │                    │
-│     └──────────────┘       └──────────────┘                    │
-└─────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 🧠 Core Concepts
+## Core Concepts
 
 ### The Evolutionary Lifecycle
 
@@ -101,7 +73,7 @@ evolutionary_trading_system/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -169,14 +141,3 @@ All hyperparameters are tunable via [`config.py`](config.py):
 ## 📈 Author
 
 **Nithillen**
-*Quantitative Developer | Machine Learning Engineer | Statistical Modeling*
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
-
-> ⚠️ **Disclaimer:** This project is for educational and research purposes only. It does not constitute financial advice. Always perform your own due diligence before trading with real capital.
